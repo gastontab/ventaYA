@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonElectronica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/electronica"
+        android:drawableRight="@drawable/flecha"
+        android:text="Electronica"
+        android:textColor="#0E0E0E"
+        android:textSize="18dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:gravity="left|center_vertical"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/buttonMusica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/musica"
+        android:drawableRight="@drawable/flecha"
+        android:textColor="#0E0E0E"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        style="?android:attr/borderlessButtonStyle"
+        android:gravity="left|center_vertical"
+        android:text="Musica" />
+
+    <Button
+        android:id="@+id/buttonIndumentaria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/indumentaria"
+        android:drawableRight="@drawable/flecha"
+        android:textColor="#0E0E0E"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        style="?android:attr/borderlessButtonStyle"
+        android:gravity="left|center_vertical"
+        android:text="Indumentaria" />
+
+    <Button
+        android:id="@+id/buttonMuebles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/muebles"
+        android:drawableRight="@drawable/flecha"
+        android:textColor="#0E0E0E"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        style="?android:attr/borderlessButtonStyle"
+        android:gravity="left|center_vertical"
+        android:text="Muebles" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/vehiculos"
+        android:drawableRight="@drawable/flecha"
+        android:textColor="#0E0E0E"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        style="?android:attr/borderlessButtonStyle"
+        android:gravity="left|center_vertical"
+        android:text="Vehiculos" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/servicios"
+        android:drawableRight="@drawable/flecha"
+        android:textColor="#0E0E0E"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        style="?android:attr/borderlessButtonStyle"
+        android:gravity="left|center_vertical"
+        android:text="Servicios" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/deportes"
+        android:drawableRight="@drawable/flecha"
+        android:textColor="#0E0E0E"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        style="?android:attr/borderlessButtonStyle"
+        android:gravity="left|center_vertical"
+        android:text="Deportes" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/herramientas"
+        android:drawableRight="@drawable/flecha"
+        android:textColor="#0E0E0E"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        style="?android:attr/borderlessButtonStyle"
+        android:gravity="left|center_vertical"
+        android:text="Herramientas" />
+
+
+</LinearLayout>

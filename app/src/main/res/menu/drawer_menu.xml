@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"
+            android:checked="true"/>
+
+
+        <item
+            android:id="@+id/nav_publicar"
+            android:title="Publicar"
+            android:icon="@drawable/ic_publicar"/>
+
+        <item
+            android:id="@+id/nav_mis_publicaciones"
+            android:title="Mis Publicaciones"
+            android:icon="@drawable/ic_mis_publicaciones"/>
+
+        <item
+            android:id="@+id/nav_categorias"
+            android:title="Categorias"
+            android:icon="@drawable/ic_categorias"/>
+
+        <item
+            android:id="@+id/nav_favoritos"
+            android:title="Favoritos"
+            android:icon="@drawable/ic_favoritos"/>
+
+
+    </group>
+
+    <item android:title="Cuenta">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Perfil"
+                    android:icon="@drawable/ic_profile"/>
+
+                <item
+                    android:id="@+id/nav_closeSesion"
+                    android:title="Cerrar Sesion"
+                    android:icon="@drawable/ic_cerrar_sesion"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>

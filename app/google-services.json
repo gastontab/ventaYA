@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "73516334365",
+    "project_id": "ventaya-cd12f",
+    "storage_bucket": "ventaya-cd12f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73516334365:android:ba05f7fc5e6bc37421b5f4",
+        "android_client_info": {
+          "package_name": "com.fgb.ventaya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73516334365-2q4pdn9e0mb782s8l6g2hg5nutscumpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVdeWbeB9kJF44nKrvtt9NAz1CirS2WXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73516334365-2q4pdn9e0mb782s8l6g2hg5nutscumpl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

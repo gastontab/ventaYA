@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true">
+
+
+<androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:minHeight="?attr/actionBarSize"
+        app:title="@string/Registro"
+        android:theme="?attr/actionBarTheme" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_horizontal"
+                android:text="@string/bienv2"
+                android:textColor="@color/blanco_campos_medium"
+                android:textSize="16sp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewPerfil"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                app:civ_border_color="#FF000000"
+                android:src="@drawable/profile"
+                app:civ_border_width="2dp" />
+
+
+            <TextView
+                android:id="@+id/textFotoPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/FotoPerfil"
+                android:textColor="@color/colorbutton"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/textNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_background"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/campoNombre"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColorHint="@color/blanco_campos" />
+
+            <EditText
+                android:id="@+id/textApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/apellido"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/blanco_campos"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:background="@drawable/edittext_background"/>
+
+            <EditText
+                android:id="@+id/textUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/textusername"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/blanco_campos"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:background="@drawable/edittext_background"/>
+
+            <EditText
+                android:id="@+id/textContrasena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/campoContra"
+                android:inputType="textPassword"
+                android:textColorHint="@color/blanco_campos"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_background"/>
+
+            <EditText
+                android:id="@+id/textcontrasena2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/campoRepContra"
+                android:inputType="textPassword"
+                android:textColorHint="@color/blanco_campos"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_background" />
+
+            <EditText
+                android:id="@+id/telefonoUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/campoTelefono"
+                android:inputType="number"
+                android:textColorHint="@color/blanco_campos"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_background" />
+
+            <EditText
+                android:id="@+id/textCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/campoMail"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/blanco_campos"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_background"/>
+
+            <CheckBox
+                android:id="@+id/checkTerminos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/blanco_campos"
+                android:text="@string/terminosYCondiciones" />
+
+            <Button
+                android:id="@+id/buttonRegistrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/botonRegistro"
+                android:background="@drawable/buttoncurvo"
+                android:layout_marginTop="10dp"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

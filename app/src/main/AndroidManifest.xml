@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fgb.ventaya">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_IMAGE_CAPTURE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/ThemeVentaYa">
+        <activity android:name=".UI.PantallaCategoriaSeleccionada"/>
+        <activity android:name=".NuevasPublicacionesUI.PantallaInfoPublicacion" />
+        <activity android:name=".UI.PantallaPublicaciones" />
+        <activity android:name=".NuevasPublicacionesUI.PublicacionExitosa" />
+        <activity android:name=".NuevasPublicacionesUI.RegistroExitoso" />
+        <activity android:name=".UI.PantallaRegistro"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".UI.PantallaIniciarSesion" />
+        <activity android:name=".NuevasPublicacionesUI.PublicarVehiculos"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".NuevasPublicacionesUI.PublicarIndumentaria"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".NuevasPublicacionesUI.PublicarDeportes"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".NuevasPublicacionesUI.PublicarElectronica"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".NuevasPublicacionesUI.PublicarHerramientas"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".NuevasPublicacionesUI.PublicarMuebles"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".NuevasPublicacionesUI.PublicarMusica"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".NuevasPublicacionesUI.PublicarServicios"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".map.MapActivity" />
+        <activity android:name=".map.MapActivity2" />
+        <activity android:name=".NuevasPublicacionesUI.PantallaCargarImagenes" />
+        <activity
+            android:name=".UI.PantallaInicio"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".Notifications.MyNotificationPublisher" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"></meta-data>
+    </application>
+
+</manifest>

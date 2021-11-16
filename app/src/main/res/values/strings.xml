@@ -1,0 +1,105 @@
+<resources>
+    <string name="bienvenidosString">Bienvenidos</string>
+    <string name="descripcionString">ventaYA es la mejor plataforma para vender y comprar articulos en linea</string>
+    <string name="iniciarsesionString">Inicio de sesión</string>
+    <string name="registrarsenString">Registrarse</string>
+    <string name="apellido">Apellido</string>
+    <string name="textusername">Nombre de usuario</string>
+    <string name="campoContra">Contraseña</string>
+    <string name="hint_search"></string>
+    <string name="app_name">ventaYa</string>
+
+
+    <string name="categoria_electronica">Electrónica</string>
+    <string name="categoria_musica">Música</string>
+    <string name="categoria_indumentaria">Indumentaria</string>
+    <string name="categoria_muebles">Muebles</string>
+    <string name="categoria_servicios">Servicios</string>
+    <string name="categoria_vehiculos">Vehículos</string>
+    <string name="categoria_deportes">Deportes</string>
+    <string name="categoria_herramientas">Herramientas</string>
+
+
+    --copiadas de sendmeal
+    <string name="bienv">Bienvenido</string>
+    <string name="bienv2">Registrate para empezar a comprar o vender!</string>
+
+    <string name="campoNombre">Nombre</string>
+    <string name="campoRepContra">Repetir contraseña</string>
+    <string name="campoMail">Email</string>
+    <string name="tarjeta">Tipo de tarjeta:</string>
+    <string name="tarjetaDebito">Debito</string>
+    <string name="tarjetaCredito">Credito</string>
+    <string name="numeroTarjeta">Numero de tarjeta</string>
+    <string name="CCV">CCV</string>
+    <string name="fechaVenc">Fecha de vencimiento:</string>
+    <string name="cbu">CBU</string>
+    <string name="alias">Alias CBU</string>
+    <string name="cargaInicial">Realizar carga inicial?</string>
+    <string name="cargaInicial2">Crédito inicial: </string>
+    <string name="terminosYCondiciones">Acepto los términos y condiciones </string>
+    <string name="botonRegistro">Registrar</string>
+    <string name="NuevoPlato"> Nuevo Plato </string>
+    <string name="TituloPlato"> Titulo </string>
+    <string name="DescripcionPlato"> Descripcion </string>
+    <string name="CaloriasPlato"> Calorias </string>
+    <string name="PrecioPlato"> Precio </string>
+    <string name="GuardarPlato"> GUARDAR </string>
+    <string name="Registro"> Registro </string>
+    <string name="ListaPlatos"> Lista de Platos </string>
+    <string name="NuevoPedido"> Nuevo Pedido </string>
+    <string name="direccion"> Dirección </string>
+    <string name="tipoPedido"> Tipo de pedido: </string>
+    <string name="tipoEnvio"> Envío </string>
+    <string name="tipoTakeAway"> Takeaway </string>
+    <string name="infoPedido"> Danos tus datos para hacer el pedido! </string>
+    <string name="agregarPlato"> Agregar plato </string>
+    <string name="listaPlatos"> Lista de platos: </string>
+    <string name="confirmarPedido"> Confirmar pedido </string>
+    <string name="pedidos"> Platos seleccionados </string>
+    <string name="BotonUbicacion">Confirmar ubicacion</string>
+    <string name="google_maps_key">AIzaSyD6unyo5s6jp67_9_E6Y6pod60IqJW4mws</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="search_title">Buscar</string>
+    <string name="Datos_vehiculo">Ingrese los siguientes datos</string>
+    <string name="campoMarca">Marca</string>
+    <string name="campoAnio">Año</string>
+    <string name="CantKm">Cantidad de Kilometros</string>
+    <string name="tipoCombustible">Tipo de Combustible</string>
+    <string name="colorVehiculo">Color</string>
+    <string name="botonSiguiente">Siguiente</string>
+    <string name="campoTelefono">Telefono de contacto</string>
+    <string name="campoTipoIndumentaria">Tipo de indumentaria (Ej: calzado,remera,etc)</string>
+    <string name="campoTituloPublicacion">Titulo para la publicacion</string>
+    <string name="descripcionArticulo">Ingrese una descripcion del producto</string>
+    <string name="condicion">Condicion</string>
+    <string name="tipoNuevo">Nuevo</string>
+    <string name="tipoUsado">Usado</string>
+    <string name="campoTipoDeporte">Tipo de deporte (Ej: futbol,basket,tenis,etc)</string>
+    <string name="campoProducto">Producto</string>
+    <string name="campoTipoElectronica">Tipo de producto (Ej: telefono,tablet,laptop,etc)</string>
+    <string name="campoModelo">Modelo</string>
+    <string name="SubirFotos">Subir Fotos</string>
+    <string name="portada">Imagen de Portada</string>
+    <string name="FotoPerfil">Subir Foto de Perfil</string>
+    <string name="campoPrecio">Precio</string>
+    <string name="publicacion">Publicacion</string>
+
+    //dps quitar
+    <string name="twitterUsername">\@joeytribbiani</string>
+    <string name="campoTipoHerramienta">Tipo de producto(Ej: martillo, destornillador, taladro, etc.)</string>
+    <string name="campotalle">Talle</string>
+    <string name="campoTipoMueble">Tipo de mueble (Ej: cama, sillon, mesa, escritorio, etc.)</string>
+    <string name="campoPeso">Peso</string>
+    <string name="campoTipoInstrumento">Tipo de instrumento (Ej: guitarra, bateria, bajo, teclado, etc.)</string>
+    <string name="campoColor">Color</string>
+    <string name="campoTipoServicio">Tipo de servicio (Ej: electricidad, mecanica, plomeria, etc.)</string>
+    <string name="ubicacionVendedor">Ubicacion del vendedor</string>
+    <string name="inicioSesion">Inicio Sesion</string>
+    <string name="cerrar_sesion">Tu sesión ha sido cerrada correctamente.</string>
+    <string name="pubExitosa">Publicacion Exitosa!!!</string>
+    <string name="regExitoso">Registro exitoso</string>
+
+
+</resources>

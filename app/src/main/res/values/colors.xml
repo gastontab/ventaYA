@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#49BEFF</color>
+    <color name="colorPrimary2">#236084</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#0D5D98</color>
+    <color name="dark_blue">#3023AE</color>
+    <color name="purple">#c86dd7</color>
+    <color name="purple2">#936dd7 </color>
+
+    <color name="blanco_campos">#ccffffff</color>
+    <color name="blanco_campos_light">#1affffff</color>
+    <color name="blanco_campos_medium">#66ffffff</color>
+
+    <color name="address">#673AB7</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#3797CF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradEnd2">#236084</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="gradStart2">#187CB1</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followersBg2">#236084</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="followingBg2">#63C9FF</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="button">#0A0F2C</color>
+    <color name="gradEnd3">#084265</color>
+    <color name="gradStart3">#28536A</color>
+    <color name="colorbutton">#009688</color>
+
+    <color name="white">#FFFFFF</color>
+</resources>
